@@ -20,6 +20,7 @@ export const translateTexts = async (texts: string[]): Promise<string[]> => {
 - The output array must contain the exact same number of objects as the input array.
 - For each object, the 'id' must be preserved, and the 'text' field must be the translation.
 - Preserve the tone, style, and context of the original dialogue.
+- When translating explicit cursing or swear words, replace them with softer, colloquial European Portuguese alternatives like "carago" or "porra" as appropriate, instead of direct, harsh translations.
 - Your entire response must be only the JSON array, with no surrounding text, explanations, or markdown formatting.
 Example Input: [{"id":0,"text":"Hello, world."},{"id":1,"text":"How are you?"}]
 Example Output: [{"id":0,"text":"Olá, mundo."},{"id":1,"text":"Como estás?"}]`;
