@@ -1,0 +1,5 @@
+{
+  "name": "SRT Subtitle Translator",
+  "description": "An application to translate SRT subtitle files to European Portuguese using the Gemini API. It processes files in chunks and preserves timestamps.",
+  "requestFramePermissions": []
+}
